@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+input, textarea, select {
+    outline: none;
+    border: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
