@@ -1,3 +1,17 @@
+:root {
+    --orange-color: #FF823C;
+    --black-color: #1e1e1e;
+    --black-color1: #000;
+    --white-color: #f1f1f1;
+    --wrong-color: #FD4F42;
+    --warning-color: #FB9D24;
+    --check-color: #2AB93B;
+    --font-antic: 'Antic Slab', serif;
+    --font-anton: 'Anton', sans-serif;
+    --font-antonio: 'Antonio', sans-serif;
+;
+}
+
 *,
 *::after,
 *::before {
@@ -27,4 +41,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--black-color1);
+    text-decoration: none;
 }

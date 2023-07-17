@@ -1,0 +1,64 @@
+:root {
+  --orange-color: #FF823C;
+  --black-color: #1e1e1e;
+  --black-color1: #000;
+  --white-color: #f1f1f1;
+  --wrong-color: #FD4F42;
+  --warning-color: #FB9D24;
+  --check-color: #2AB93B;
+  --font-antic: 'Antic Slab', serif;
+  --font-anton: 'Anton', sans-serif;
+  --font-antonio: 'Antonio', sans-serif;
+;
+}
+
+.about {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 2rem;
+  scroll-behavior: smooth;
+}
+
+.info {
+  background-color: var(--white-color);
+  box-shadow: 6px 6px 0 var(--black-color1);
+  border: 3px solid var(--black-color1);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.title {
+  font-family: var(--font-anton);
+  font-size: 2rem;
+  margin: 0 0;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.text--me {
+  font-family: var(--font-antic);
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.tech-skills {
+  display: flex;
+  font-family: var(--font-anton);
+  gap: 2rem;
+  align-items: center;
+}
+
+.tech-skills h2 {
+  padding-inline: 1rem;
+  border-right: 2px solid var(--orange-color);
+}
+
+.tech {
+  display: flex;
+  gap: 1rem;
+}
